@@ -1,0 +1,16 @@
+.canvas {
+  margin-left: 20px;
+  border: 1px solid black;
+}
+/* @media screen and (min-width: 768px) {
+  .canvas {
+    max-width: 768px;
+  }
+} */
+
+.btn-draw {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

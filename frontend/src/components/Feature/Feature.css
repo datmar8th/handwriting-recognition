@@ -1,0 +1,47 @@
+.container--feature {
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  /* flex-wrap: wrap; */
+  flex-direction: column;
+}
+
+.container--feature h3 {
+  color: rgb(15, 220, 247);
+  font-size: 20px!important;
+  font-family: 'Trebuchet MS'!important;
+  font-style: italic;
+  padding: 10px 10px 0 10px;
+}
+
+.container--feature__col {
+  /* padding: 1rem; */
+  overflow: hidden;
+}
+
+.container--image {
+  width: 100%; /* or any custom size */
+  height: 100%;
+  object-fit: contain;
+  /* object-fit: cover;
+  -webkit-overflow-scrolling: auto; */
+}
+
+.container--feature__col .container--feature__predicted p {
+  color: rgb(255, 255, 255)!important;
+}
+.predict span{
+  color: rgb(15, 220, 247);
+  text-decoration: underline;
+  font-size: 24px!important;
+  font-style: unset;
+  font-weight: 800;
+  font-family: "Audiowide", sans-serif;
+
+}
+
+.predict {
+  background-color: transparent;
+  color: black;
+}
